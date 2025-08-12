@@ -1,0 +1,3 @@
+"""
+Advanced trading strategies package
+"""
