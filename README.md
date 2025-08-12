@@ -181,8 +181,6 @@ python src/advanced/grid.py BTCUSDT 115000 125000 10 100
 \`\`\`
 
 ## 📁 Project Structure
-
-\`\`\`
 binance-futures-bot/
 ├── src/                     # All source code
 │   ├── __init__.py
@@ -208,7 +206,7 @@ binance-futures-bot/
 ├── bot.log               # Application logs (auto-generated)
 ├── requirements.txt      # Python dependencies
 └── README.md            # This documentation
-\`\`\`
+
 
 ## 🔒 Security & GitHub Best Practices
 
