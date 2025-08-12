@@ -184,30 +184,29 @@ python src/advanced/grid.py BTCUSDT 115000 125000 10 100
 
 \`\`\`
 binance-futures-bot/
-├── src/                     # All source code
+├── src/                   
 │   ├── __init__.py
-│   ├── config.py           # Configuration and environment loading
-│   ├── binance_client.py   # Binance API client wrapper
-│   ├── market_orders.py    # Market order implementation
-│   ├── limit_orders.py     # Limit order implementation
-│   ├── utils/              # Utility modules
+│   ├── config.py
+│   ├── market_orders.py
+│   ├── limit_orders.py
+│   ├── utils/
 │   │   ├── __init__.py
-│   │   ├── formatter.py    # Professional output formatting
-│   │   ├── logger.py       # Comprehensive logging utilities
-│   │   └── validator.py    # Input validation and risk checks
-│   └── advanced/           # Advanced trading strategies
+│   │   ├── formatter.py
+│   │   ├── logger.py
+│   │   └── validator.py
+│   └── advanced/
 │       ├── __init__.py
-│       ├── oco.py         # One-Cancels-Other orders
-│       ├── twap.py        # Time-Weighted Average Price
-│       └── grid.py        # Grid trading strategy
-├── scripts/                # Database and utility scripts
-│   └── setup_database.py  # Database setup for trade history
-├── .env.example           # Environment template (safe to commit)
-├── .env                   # Your actual API keys (DO NOT COMMIT)
-├── .gitignore            # Git ignore rules
-├── bot.log               # Application logs (auto-generated)
-├── requirements.txt      # Python dependencies
-└── README.md            # This documentation
+│       ├── oco.py
+│       ├── twap.py
+│       └── grid.py
+├── scripts/
+│   └── setup_database.py
+├── .env.example
+├── .env
+├── .gitignore
+├── bot.log
+├── requirements.txt
+└── README.md
 \`\`\`
 
 ## 🔒 Security & GitHub Best Practices
