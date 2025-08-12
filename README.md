@@ -80,7 +80,7 @@ LOG_LEVEL=INFO
 
 ### Testnet Setup (Recommended for Learning)
 1. **Visit Binance Futures Testnet**: https://testnet.binancefuture.com/
-2. **Login with Google/GitHub**: Click "Log in with GitHub" (easiest method)
+2. **Login with GitHub**: Click "Log in with GitHub" (easiest method)
 3. **Generate API Keys**:
    - Click your profile → "API Management"
    - Click "Create API"
@@ -181,6 +181,8 @@ python src/advanced/grid.py BTCUSDT 115000 125000 10 100
 \`\`\`
 
 ## 📁 Project Structure
+
+\`\`\`
 binance-futures-bot/
 ├── src/                     # All source code
 │   ├── __init__.py
@@ -206,7 +208,7 @@ binance-futures-bot/
 ├── bot.log               # Application logs (auto-generated)
 ├── requirements.txt      # Python dependencies
 └── README.md            # This documentation
-
+\`\`\`
 
 ## 🔒 Security & GitHub Best Practices
 
